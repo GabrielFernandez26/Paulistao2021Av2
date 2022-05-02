@@ -1,0 +1,71 @@
+@charset "ISO-8859-1";
+body{
+	background-color:#004386;
+	color:white;
+	font-family:"Arial";
+	font-weight:600;
+	text-align: center;
+}
+.GrupoA{
+	background-color:#FE172E;
+}
+.GrupoB{
+	background-color:#004DB9;
+}
+.GrupoC{
+	background-color:#FC9317;
+}
+.GrupoD{
+	background-color:#A0A7A5;
+}
+.grupos{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-direction:column;
+}
+.grupos table {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+img{
+	text-align: center;
+}
+.header{
+	background-color:white;
+}
+.header a{
+	text-decoration:none;
+	color:black;
+}
+.header a:hover{
+	color:blue;
+}
+input{
+	color:white;
+	background-color:red;
+	margin:1em;
+	border-radius:8px;
+	border:none;
+	padding:1em;
+	cursor:pointer;
+}
+button{
+	color:white;
+	background-color:red;
+	margin:1em;
+	border-radius:8px;
+	border:none;
+	padding:1em;
+	cursor:pointer;
+}
+input:hover{
+	background-color:#E13840;
+}
+button:hover{
+	background-color:#E13840;
+}
