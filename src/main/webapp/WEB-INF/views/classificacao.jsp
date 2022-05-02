@@ -13,7 +13,7 @@
 <body>
 	<div class="header">
 		<ul>
-			<li><a href="index" class="link-grupos">Grupos</a></li>
+			<li><a href="/" class="link-grupos">Grupos</a></li>
 			<li><a href="jogos" class="link-jogos">Jogos</a></li>
 			<li><a href="rodadas" class="link-rodadas">Rodadas</a></li>
 			<li><a href="classificacao" class="link-classificacao">Classificacao</a></li>

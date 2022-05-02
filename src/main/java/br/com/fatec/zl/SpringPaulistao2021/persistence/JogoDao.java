@@ -35,7 +35,7 @@ public class JogoDao implements IJogoDao {
 	public List<Jogo> listarJogos() throws SQLException, ClassNotFoundException {
 		List<Jogo> jogos = new ArrayList<Jogo>();
 		Connection c = gDao.getConnection();
-		String sql = "SELECT * FROM vwJogos WHERE dia IS NOT NULL";
+		String sql = "SELECT * FROM vwJogos";
 		PreparedStatement ps = c.prepareStatement(sql);
 		ResultSet rs = ps.executeQuery();
 		
